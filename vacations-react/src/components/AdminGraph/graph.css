@@ -1,0 +1,9 @@
+.modal-header > .close  {
+    margin-right: 0%;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.modal-header > .close > span {
+    padding: 0px 10px;
+}

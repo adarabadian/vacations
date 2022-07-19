@@ -1,0 +1,149 @@
+.react-confirm-alert-button-group > button{
+    margin: auto;
+    width: 40%;
+}
+
+textarea{
+    overflow-x: hidden;
+}
+
+
+.card > h2{
+    margin-top: 3%;
+    padding: 2% 0;
+    text-align: center;
+    background-color: #0084ff38;
+    margin: auto;
+}
+.cardAddText{
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+.card-body > input{
+    width: 100%;
+    float: right;
+}
+.description{
+    border: 2px black solid;
+    height: 90px;
+    resize: none;
+    width: 100%;
+    font-family: 'Merienda', cursive;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-family: 'Merienda', cursive;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+p > input{
+    width:100%;
+}
+.smallInputsDiv{
+    width: 50%;
+}
+.smallInputs{
+    float: right;
+    width:55%;
+}
+
+.followersAmount{
+    font-size: 100%;
+}
+
+.cardIcons{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.cardIcons > span{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+#addCard {
+    display: contents;
+    border-radius: 3%;
+}
+
+#addCard > .card-body{
+    height: auto;
+    margin: 0 20%
+}
+.card-body > Button{
+    width: 100%;
+    padding: 1%;
+}
+
+#addCard > h2{
+    border-radius: 50px;
+}
+
+#adminButtonsDiv{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#adminButtonsDiv > Button{
+    width: 40%;
+    margin: 0% 2% 0% 2%;
+    font-size: 115%;
+}
+.MuiButton-label > img{
+    height: 40px;
+    margin: 0% 10% 0% 10%;
+}
+.modal-dialog {
+    max-width: 50%;
+    margin: 1.75rem auto;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .modal-dialog {
+        max-width: 65%;
+        margin: 1.75rem auto;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    #newVacationDesc{
+        height: 20%;
+    }
+    .smallInputsDiv{
+        width: 70%;
+    }
+    .MuiButton-text {
+        padding: 0;
+    }
+    .MuiButton-root {
+        line-height: 1.2;
+    }
+    .modal-dialog {
+        max-width: 90%;
+        margin: 1.75rem auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .card  {
+        width: 100%;
+    }
+    .smallInputsDiv{
+        width: 100%;
+    }
+    .modal-dialog {
+        max-width: 96%;
+        margin: 1.75rem auto;
+    }
+    #adminButtonsDiv > Button{
+        width: 100%;
+        margin: 2%;
+    }
+}

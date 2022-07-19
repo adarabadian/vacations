@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+.entranceDiv{
+    text-align: center !important;
+    min-width: 40%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: auto;
+    min-height: 5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+}
+#loginTable > tr{
+    height: 70px;
+}
+
+h2{
+    font-family: 'Merienda', cursive;
+    font-size: 250%;
+    margin: 4% 5% 5% 5%;
+}
+
+tr{
+    margin: auto;
+    text-align: center;
+    display: inline-flex;
+    width: 60%;
+}
+
+table{
+    padding-top: 3%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border-spacing: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td:first-child {
+    width: 50%;
+    margin: auto;
+    text-align: center; 
+}
+
+td:nth-child(2) {
+    width: 50%;
+    margin: auto;
+    text-align: center;; 
+}
+
+input{
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+input:focus {
+    outline-width: 0;
+}
+
+.validInput{
+    border: 3px solid rgb(0, 119, 255);
+}
+
+.invalidInput{
+    border: 3px solid rgb(255, 67, 67);
+}
+
+span{
+    background-color: rgba(46, 163, 167, 0.198);
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+    color: black;
+    font-size: 120%;
+    font-family: 'Merienda', cursive;
+}
+
+.validator{
+    font-family: 'Merienda', cursive;
+    font-size: 80%;
+    background-color: transparent;
+    padding-bottom: 5%;
+    height: 10px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+
+.button {
+    width: 30%;
+}
+
+#loginButton{
+    margin-top: 15%;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .entranceDiv{
+        width: 80%;
+        border-radius: 0;
+    }
+    table{
+        width: 100%;
+    }
+    .button{
+        width: 80%;
+    }
+
+    td {
+        display: initial;
+    }
+
+    td:nth-child(2) {
+        width: 50%;
+        margin: 0;
+        float: right;
+    }
+    tr{
+        display: inline;
+    }
+  }
+
+  @media screen and (max-height: 700px) {
+    #loginButton{
+        margin-top: 5%;
+    }
+    .entranceDiv{
+        height: auto;
+    }
+    h2{
+        margin: 2% 5%  4%;
+    }
+    table > tbody > tr > td{
+        width: 100px;
+    }
+  }
+
+
+@media screen and (max-width: 700x) {
+    .entranceDiv{
+        width: 80%;
+        min-height: 75%;
+        border-radius: 0;
+    }
+    table{
+        width: 100%;
+    }
+    .normalTableDivs{
+       text-align:center;
+    }
+    .button{
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .entranceDiv{
+        width: 96%;
+        margin-top: 0%;
+        min-height: 100%;
+        border-radius: 0;
+    }
+    #loginButton{
+        margin-top: 17%;
+    }
+  }
+
+
+
+  tr{
+    display: block;
+}
+
+@media screen and (max-width: 450px) {
+    .validator{
+        font-family: 'Merienda', cursive;
+        font-size: 72%;
+        background-color: transparent;
+        padding-bottom: 0;
+        height: 10px;
+        width: 96vw;
+        display: flow-root;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    td{
+        display: inline;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    td:nth-child(2) {
+        width: 100%;
+        margin: 0;
+        ; 
+        display: block;
+        padding-left: 0px;
+        }
+    
+  }
+
+  @media screen and (max-width: 360px) {
+  }
+
+  @media screen and (max-width: 330px) {
+    td {
+        font-size: 85%;
+        width: 32%;
+        padding: 0;
+        margin: auto;
+    }
+    
+  }
+

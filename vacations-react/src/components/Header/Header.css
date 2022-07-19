@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.header {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+    background-color: #ffffff94;
+}
+h1{
+    background-color: #ffffff78;
+    width: fit-content;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 50px;
+    font-family: 'Merienda', cursive;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.header > span {
+    float: left;  
+    display: inline;
+    font-size: larger ;
+    width: 20%;
+}
+.header > h1{
+    display: inline;
+    margin: auto;
+}
+
+.header >button{
+    float: right;
+    display: inline;
+    width: 20%;
+    background-color: rgba(46, 163, 167, 0.198);
+    border: 0;
+    padding: 8px;
+    border-radius: 50px;
+    color: black;
+    font-size: 120%;
+    font-family: 'Merienda', cursive;
+}
+
+#helloMessage{
+    float: left;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    h1{
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 160%;
+    }
+    button{
+        width:10%;
+    }
+    .header  {
+        margin: 0;
+        width: 100%;
+        border-radius:0 ;
+         padding: 1%;
+    }
+  }
+
+    @media screen and (max-width: 500px) {
+    .header  {
+        margin: 0;
+        width: 100%;
+        border-radius:0 ; 
+    }
+    .header > h1{
+        width: 100%;
+        padding: 0px 5%;
+    }
+    .header > button, span{
+        width:100%;
+        padding: 5px;  
+        margin: auto;
+        background-color: transparent;
+    }
+
+    @media screen and (max-width: 300px) {
+        
+        .header > h1{
+            width: 100%;
+            padding: 0px 2%;
+            font-size: 150%;
+        }
+    } 
+  }

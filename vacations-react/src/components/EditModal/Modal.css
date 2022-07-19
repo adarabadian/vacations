@@ -1,0 +1,81 @@
+#editModal{
+    padding: 2% 5% 2% 5%;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffffce;
+    margin-top: 2%;
+}
+
+#editModal > h1{
+    margin-bottom: 3%;
+    width: 50%;
+    padding: 1%
+}
+#editModal > .smallInputsDiv{
+    margin: auto;
+    display: inline-flex;
+}
+#editModal > p{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: x-large;
+}
+
+p > input{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: large;
+    background-color: white;
+    border: 2px solid;
+    border-color: rgb(70 70 70);
+    padding: 4px;
+}
+
+p > textarea{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: large;
+}
+
+#editModal > .smallInputsDiv{
+    text-align: center;
+}
+#collapserToggler{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+}
+#priceOnModal{
+    text-align: right; 
+    width: 100%;
+}
+#dateSection{
+    width:50%;
+}
+.ReactCollapse--content > p > input{  
+    padding: 0;
+    margin: 0;
+}
+#buttonsDiv {
+    width: 33%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2%
+}
+
+#buttonsDiv >Button {
+    width: 90%;
+    margin: 1%;
+    text-align: center;
+}
+.smallInputsDiv{
+    width: 100%;
+}
+.smallInputsDiv > div{
+    width: 33%;
+}
+.smallInputsDiv > p{
+    margin-top: 4%;
+    width: 33%;
+}
